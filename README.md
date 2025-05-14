@@ -11,9 +11,9 @@
 ⸻
 
 2. Sobre
-	•	História da Gauddí e origem do nome (referência a Antoni Gaudí)
+	•	Quem Somos
+	•	Conceito 
 	•	Missão, Visão e Valores
-	•	Diferenciais:
 	•	Atuação integrada (arquitetura + engenharia)
 	•	Foco em sustentabilidade, personalização e inovação
 	•	(Opcional) Foto ou ilustração da equipe
