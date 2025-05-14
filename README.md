@@ -10,7 +10,7 @@
 
 ⸻
 
-2. Sobre
+# 2. Sobre
 	•	Quem Somos
 	•	Conceito 
 	•	Missão, Visão e Valores
