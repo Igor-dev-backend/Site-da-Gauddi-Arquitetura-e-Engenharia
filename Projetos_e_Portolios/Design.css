@@ -1,0 +1,35 @@
+/*Cores*/
+#corC{
+  background-color:#323232
+}
+
+#corM{
+  background-color:#998062
+}
+
+#corA{
+   background-color: #5e778d
+}
+
+#corAz{
+   background-color:#d7dfe8
+}
+
+#corP{
+   background-color: #dad5d1
+}
+
+#corB{
+   background-color:#efecdc
+}
+/*Menu*/
+header{
+    background: #5e778d;
+    color:#d7dfe8;
+    width: 100%;
+    top:0px;
+}
+.titulo{
+    text-align:top:5px;
+   
+}
