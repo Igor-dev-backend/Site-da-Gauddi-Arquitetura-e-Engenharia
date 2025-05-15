@@ -9,7 +9,7 @@
 	•	Link para Instagram (ou ícone no rodapé)
 
 ⸻
-
+ 
 # 2. Sobre
 	•	Quem Somos
 	•	Conceito 
