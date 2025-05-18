@@ -26,10 +26,9 @@
 header{
     background: #5e778d;
     color:#d7dfe8;
-    width: 100%;
-    top:0px;
+    width: 100%;  
 }
-.titulo{
-    text-align:top:5px;
-   
+
+.background_links{
+   color:#d7dfe8
 }
