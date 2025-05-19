@@ -1,16 +1,80 @@
- <!DOCTYPE html>
-<html>
-    <head>
-      <title>Portfólios/Serviços</title>
-      <link rel="stylesheet" href="Design.css">
-    </head>
-    <body id="corAz">  
-        <header>     
-             <h2 class="titulo"><img src="imagens/Captura de tela_14-5-2025_1584_.jpeg" width="100">
-             </h2>
-        </header>     
-        <section>
-          
-        </section>  
-    </body>
-</html>    
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu de Serviços</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .menu-servicos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .servico {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .servico:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    .servico h2 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .servico p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Nossos Serviços</h1>
+
+  <div class="menu-servicos">
+    <div class="servico">
+      <h2>Desenvolvimento Web</h2>
+      <p>Criação de sites responsivos, modernos e otimizados para todos os dispositivos.</p>
+    </div>
+
+    <div class="servico">
+      <h2>Design Gráfico</h2>
+      <p>Identidade visual, criação de logotipos, banners, cartões de visita e mais.</p>
+    </div>
+
+    <div class="servico">
+      <h2>Marketing Digital</h2>
+      <p>Campanhas nas redes sociais, SEO e estratégias para aumentar sua presença online.</p>
+    </div>
+
+    <div class="servico">
+      <h2>Consultoria em TI</h2>
+      <p>Suporte, análise e implementação de soluções tecnológicas para empresas.</p>
+    </div>
+  </div>
+
+</body>
+</html>
