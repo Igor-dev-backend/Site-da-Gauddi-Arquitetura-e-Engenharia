@@ -7,19 +7,34 @@
     <title>Guaddi Fale Conosco</title>
 </head>
 <body>
-    <p>Formulario para prencher</p> <!-- Lembrar de trocar depois-->
+    <p class="Formulario">Formulario para prencher</p> <!-- Lembrar de trocar depois-->
     <form>
+        <section class="caixa">
         <label>Digite seu nome completo:</label>
         <input type="text" name="Digite seu nome completo" placeholder="Ex: João Ferreira de Lima" required><br>
+        </section>
+
+        <section class="caixa">
         <label>Digite seu E-mail:</label>
         <input type="email" name="Digite seu E-mail"><br>
+        </section>
+        
+        <section class="caixa">
         <label>Mensagem:</label>
         <textarea name="Mensagem" required></textarea><br>
+        </section>
+        
+        <section class="caixa">
         <label>Contato:</label>
         <input type="tel" pattern="\d{2}\s\d{9}" placeholder="Ex: 83 912345678" required><br> <!--aqui é necessario um java dei uma pesquisada qualquer coisa incremento-->
+        </section>
+
+        <section class="caixa">
         <label>Digite Seu E-mail Profissional:</label>
         <input type="email" required><br>
-        <section>
+        </section>
+
+        <section class="caixa">
         <label>Endereço</label> <!-- Acho q exagerei mas tamo ai, qualquer coisa faço a retirada... -->
         <select name="endereco-pb">
         <option value="" disabled selected>Selecione uma cidade</option>
@@ -246,13 +261,21 @@
         <option value="Vieirópolis">Vieirópolis</option>
         <option value="Vista Serrana">Vista Serrana</option>
         <option value="Zabelê">Zabelê</option>
+        
         </select>
-        </section>
         <label>
+        </section>
+
+        <section class="caixa">
         <br><input type="checkbox" name="termo" value="aceito" required>
         Eu li e aceito os Termos de Uso e a Política de Privacidade<br> <!-- href ia ser bom ak caso eventualmente tenha um termos de uso e a pessoa não tenha lido ainda apenas apertando na palavra ela é direcionada aos termos  -->
         </label>
+        </section>
+
+        <section class="caixa">
         <input type="submit" value="Enviar">
+        </section>
+
     </form>
 </body>
 </html>
