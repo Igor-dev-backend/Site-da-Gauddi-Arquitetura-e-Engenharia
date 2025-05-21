@@ -1,0 +1,86 @@
+.imagem-completa {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.imagem-completa img {
+    width: 50%;        /* Cada imagem ocupa metade do container */
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.foco {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.foco h2 {
+  font-size: 2.5rem;
+  color: #003840;
+  margin-bottom: 20px;
+}
+
+.foco-intro {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.foco-pilares {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.pilar {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pilar:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pilar i {
+  font-size: 2.5rem;
+  color: #007c91;
+  margin-bottom: 20px;
+}
+
+.pilar h3 {
+  font-size: 1.6rem;
+  color: #202020;
+  margin-bottom: 15px;
+}
+
+.pilar p {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+  .foco-pilares {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .pilar {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
