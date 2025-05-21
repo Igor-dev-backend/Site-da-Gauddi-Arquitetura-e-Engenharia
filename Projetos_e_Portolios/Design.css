@@ -1,12 +1,6 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/lyo5ggw.css");
 /*Cores*/
-#corC{
-  background-color:#323232
-}
-
-#corM{
-  background-color:#998062
-}
-
 #corA{
    background-color: #5e778d
 }
@@ -14,22 +8,39 @@
 #corAz{
    background-color:#d7dfe8
 }
-
-#corP{
-   background-color: #dad5d1
-}
-
-#corB{
-   background-color:#efecdc
+/*Geral*/
+body{
+   font-family: poppins, sans-serif;
+   font-weight: 200;
+   font-style: normal;
 }
 /*Menu*/
 header{
     background: #5e778d;
-    color:#d7dfe8;
-    width: 100%;
-    top:0px;
+    color:#d7dfe8;  
+    justify-content: center;
+    display: flex;
 }
-.titulo{
-    text-align:top:5px;
-   
+nav{
+   margin: auto;
+   align-items: center;
+   background-color:#5e778d ;
+   text-align: justify;
+   font-weight: 700;
+}
+
+a{
+   color: #d7dfe8;
+   text-decoration: none;
+}
+img{
+   height: 120px;
+   margin: auto;
+}
+
+/*corpo*/
+
+.h1{
+   font-size: 1.8em;
+   text-align: center;
 }
