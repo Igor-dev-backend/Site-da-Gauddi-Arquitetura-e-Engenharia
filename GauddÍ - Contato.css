@@ -16,30 +16,34 @@ body {
 }
 
 .container {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin-left: 25vw;
+    max-width: calc(100% - 25vw);
+    padding: 0px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
-    overflow: hidden;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    align-items: flex-start;
-}
-
-.image-container {
-    flex: 1;
-    background-color: #d7dfe8;
-    position: sticky;
-    top: 0;
-    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.image-container img {
-    max-width: 90%;
-    max-height: 90%;
+.fixed-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25vw;
+    height: 100vh;
+    background-color: #d7dfe8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background: transparent;
+    box-shadow: none;
+}
+
+.fixed-image img {
+    max-width: 80%;
+    max-height: 80%;
     object-fit: contain;
 }
 
@@ -84,7 +88,7 @@ textarea {
 }
 
 textarea {
-    resize: vertical;
+    resize: none;
     min-height: 80px;
 }
 
@@ -95,12 +99,14 @@ input:focus {
 }
 
 .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     grid-column: span 2;
-    margin-top: 10px;
 }
 
 input[type="submit"] {
-    display: block;
+    display: flex;
     margin: 30px auto 0 auto;
     padding: 14px 40px;
     background: linear-gradient(to right, #5e778d, #998062);
@@ -112,6 +118,7 @@ input[type="submit"] {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    grid-column: span 2;
 }
 
 input[type="submit"]:hover {
@@ -120,17 +127,24 @@ input[type="submit"]:hover {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
 }
 
-.form-left img {
-    display: block;
-}
-
 select {
     width: 100%;
     padding: 10px;
-    background-color: #dbe7f4; /* mesma cor dos inputs */
+    background-color: #dbe7f4;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-family: inherit;
     font-size: 16px;
     box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .fixed-side-image {
+        display: none;
+    }
+
+    .container {
+        margin-left: 0;
+        max-width: 100%;
+    }
 }
