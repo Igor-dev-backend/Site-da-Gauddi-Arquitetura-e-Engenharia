@@ -1,40 +1,53 @@
 @charset "UTF-8";
-@import url("https://use.typekit.net/lyo5ggw.css");
 /*Cores*/
+
 #corA{
    background-color: #5e778d
 }
-
 #corAz{
    background-color:#d7dfe8
 }
 /*Geral*/
-body{
-   font-family: poppins, sans-serif;
-   font-weight: 200;
-   font-style: normal;
+*{
+   margin: 0px;
+   padding: 0px;
 }
+
+body{
+   font-family: "Apparat", sans-serif;
+}
+
 /*Menu*/
+
 header{
     background: #5e778d;
-    color:#d7dfe8;  
     justify-content: center;
     display: flex;
+    width: 100%;
 }
+
 nav{
    margin: auto;
-   align-items: center;
    background-color:#5e778d ;
-   text-align: justify;
+   color: #d7dfe8;
    font-weight: 700;
+}
+
+a:hover{
+   color: #5e778d;
+   background-color: #d7dfe8;
+   padding-left: 0.8em;
+   padding-right: 0.8em;
 }
 
 a{
    color: #d7dfe8;
    text-decoration: none;
+   padding: 0.5em;
 }
-img{
-   height: 120px;
+section > picture > img{
+   height: 400px;
+   width: auto;
    margin: auto;
 }
 
@@ -43,8 +56,20 @@ img{
 .h1{
    font-size: 1.8em;
    text-align: center;
+   padding: 1em;
 }
 
-.imagens{
-   
+main{
+   margin: auto;
+   min-width: 320px;
+   max-width: 900px;
+}
+/*Rodapé*/
+footer{
+   background-color: #5e778d;
+   margin: auto 0px 0px 0px;
+}
+
+footer > a{
+   margin: 1em 0px 0px 0px;
 }
