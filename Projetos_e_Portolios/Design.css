@@ -27,10 +27,15 @@ header{
 }
 
 nav{
+   width: 100%;
    margin: auto;
    background-color:#5e778d ;
    color: #d7dfe8;
    font-weight: 700;
+   max-width: 900px;
+   min-width: 320px;
+   text-align: center;
+   border-radius: 0px 0px 10px 10px;
 }
 
 a:hover{
@@ -44,11 +49,7 @@ a{
    color: #d7dfe8;
    text-decoration: none;
    padding: 0.5em;
-}
-section > picture > img{
-   height: 400px;
-   width: auto;
-   margin: auto;
+   margin-right: 1px;
 }
 
 /*corpo*/
@@ -62,14 +63,22 @@ section > picture > img{
 main{
    margin: auto;
    min-width: 320px;
-   max-width: 900px;
+   max-width: 800px;
 }
+
+section > picture > img{
+   height: 400px;
+   margin: auto;
+   display: block;
+   width: 100%;
+}
+section{
+   text-align:center;
+}
+
 /*Rodapé*/
 footer{
    background-color: #5e778d;
    margin: auto 0px 0px 0px;
-}
-
-footer > a{
-   margin: 1em 0px 0px 0px;
+   font-weight: 700;
 }
