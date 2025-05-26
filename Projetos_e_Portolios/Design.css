@@ -15,6 +15,7 @@
 
 body{
    font-family: "Apparat", sans-serif;
+   background-image: linear-gradient(to top, #5e778d, #9BABBB, #d7dfe8) ;
 }
 
 /*Menu*/
@@ -54,10 +55,10 @@ a{
 
 /*corpo*/
 
-.h1{
-   font-size: 1.8em;
+.Titulogeral{
    text-align: center;
    padding: 1em;
+   font-size: 3vw;
 }
 
 main{
@@ -67,15 +68,22 @@ main{
 }
 
 section > picture > img{
-   height: 400px;
    margin: auto;
    display: block;
    width: 100%;
 }
 section{
    text-align:center;
+   font-size: 2vw;
 }
 
+.margemT{
+   margin-top: 2em;
+}
+
+.margemI{
+   margin: 1em 0em 1em 0em;
+}
 /*Rodapé*/
 footer{
    background-color: #5e778d;
