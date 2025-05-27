@@ -65,6 +65,15 @@ header h1 {
     gap: 20px;
 }
 
+.form-grid-thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+
 .full-width {
     grid-column: span 2;
 }
@@ -99,10 +108,20 @@ input:focus {
 }
 
 .checkbox-container {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     grid-column: span 2;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 18px;
+  accent-color: #5e778d;
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
 }
 
 input[type="submit"] {
@@ -138,8 +157,16 @@ select {
     box-sizing: border-box;
 }
 
+.thanks {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
 @media (max-width: 768px) {
-    .fixed-side-image {
+    .fixed-image {
         display: none;
     }
 
@@ -147,4 +174,26 @@ select {
         margin-left: 0;
         max-width: 100%;
     }
+
+    .form-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .form-grid-thanks {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input[type="checkbox"] {
+        vertical-align: middle;
+        position: relative;
+        top: -24px;
+
+    }
+    
 }
