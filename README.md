@@ -20,9 +20,9 @@
 
 ⸻
 
-3. Serviços
+# 3. Serviços
 
-Divididos em duas seções principais:
+# Divididos em duas seções principais:
 
 # Arquitetura:
 	•	Projetos residenciais, comerciais, interiores
