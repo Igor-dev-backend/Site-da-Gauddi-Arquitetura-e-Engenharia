@@ -371,12 +371,12 @@ header h2 {
 }
 
 .fundadores-equipe h2 {
-  font-family: 'Apparat', sans-serif;
   margin-bottom: 3rem;
   color: #323232;
   font-size: 2.5rem;
   letter-spacing: 0.05em;
 }
+
 
 .duplas-fundadores {
   display: flex;
@@ -385,35 +385,32 @@ header h2 {
   align-items: center;
 }
 
+
 .imagem-dupla {
   display: flex;
-  flex-wrap: wrap;               
+  flex-direction: row;
   justify-content: center;
-  align-items: stretch;
-  gap: 0;
   width: 100%;
   max-width: 800px;
-  border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .imagem-dupla img {
-  flex: 1 1 300px;               
-  min-width: 300px;
-  max-width: 100%;
+  width: 50%;
   height: auto;
-  object-fit: cover;
   display: block;
+  object-fit: cover;
 }
 
-@media (max-width: 640px) {
+
+@media (max-width: 768px) {
   .imagem-dupla {
     flex-direction: column;
   }
 
   .imagem-dupla img {
-    min-width: 100%;
     width: 100%;
   }
 }
