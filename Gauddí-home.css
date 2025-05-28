@@ -91,7 +91,9 @@ nav a:hover {
 
 /* Hero section */
 .hero {
-  background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+  background:
+    linear-gradient(rgba(15, 15, 15, 0.92), rgba(15, 15, 15, 0.92)),
+    url('projeto1/Apresentaçaologo_gauddi.jpeg') no-repeat center center/cover;
   height: 400px;
   display: flex;
   align-items: center;
