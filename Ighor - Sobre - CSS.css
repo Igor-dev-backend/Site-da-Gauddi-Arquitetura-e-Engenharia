@@ -363,10 +363,6 @@ header h2 {
 
 
 /* Bloco - Equipe */
-* {
-  box-sizing: border-box;
-}
-
 .fundadores-equipe {
   padding: 4rem 1rem;
   background-color: #f9f9f9;
@@ -392,8 +388,9 @@ header h2 {
 .imagem-dupla {
   display: flex;
   justify-content: center;
+  gap: 0;
   width: 100%;
-  max-width: 800px;
+  max-width: 90vw;
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -402,17 +399,23 @@ header h2 {
 .imagem-dupla img {
   width: 50%;
   height: auto;
+  aspect-ratio: 4 / 5; 
   object-fit: contain;
   display: block;
 }
 
 
-
 @media (max-width: 768px) {
+  .imagem-dupla {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .imagem-dupla img {
-    width: 100%;
+    width: 50%;
   }
 }
+
 
 
 
