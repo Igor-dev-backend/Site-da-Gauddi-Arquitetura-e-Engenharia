@@ -1,4 +1,69 @@
-       body {
+/* Bloco Navegação */
+.navbar {
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo img {
+  height: 60px;
+  width: auto;
+  max-width: 300px;
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #5e778d;
+  transition: width 0.3s ease;
+}
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .nav-logo {
+    margin-bottom: 1rem;
+  }
+}
+        body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #f8f9fa;
             padding: 30px 15px;
@@ -103,13 +168,68 @@
         }
 
         footer {
-            text-align: center;
-            margin-top: 50px;
-            padding-top: 15px;
-            border-top: 1px solid #ddd;
-            color: #777;
-            font-size: 14px;
-        }
+      background-color: #111; /* fundo escuro para contraste elegante */
+  color: #fff; /* texto claro para legibilidade */
+  padding: 3rem 2rem;
+  font-family: 'Apparat', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-info,
+.footer-contato,
+.footer-redes {
+  flex: 1 1 250px;
+}
+
+.footer-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.footer-contato h4,
+.footer-redes h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #f0f0f0;
+}
+
+.footer-container p,
+.footer-container a {
+  font-size: 0.95rem;
+  color: #ccc;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.footer-container a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .footer-info,
+  .footer-contato,
+  .footer-redes {
+    flex: 1 1 100%;
+  }
+}
+       
 
         /* Animações */
         .div:nth-child(odd) {
