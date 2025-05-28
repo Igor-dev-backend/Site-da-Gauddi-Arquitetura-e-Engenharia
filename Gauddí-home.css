@@ -1,3 +1,7 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 .navbar {
   background-color: #000;
   position: sticky;
@@ -33,7 +37,6 @@
 }
 .nav-links a::after {
   content: '';
-  position: absolute;
   bottom: -4px;
   left: 0;
   width: 0;
@@ -44,14 +47,9 @@
 .nav-links a:hover::after {
   width: 100%;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Apparat', sans-serif;
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
@@ -93,7 +91,9 @@ nav a:hover {
 
 /* Hero section */
 .hero {
-  background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+  background:
+    linear-gradient(rgba(15, 15, 15, 0.92), rgba(15, 15, 15, 0.92)),
+    url('projeto1/Apresentaçaologo_gauddi.jpeg') no-repeat center center/cover;
   height: 400px;
   display: flex;
   align-items: center;
