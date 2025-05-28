@@ -24,23 +24,23 @@
 
 Divididos em duas seções principais:
 
-Arquitetura:
+# Arquitetura:
 	•	Projetos residenciais, comerciais, interiores
 	•	Estudo de layout e estética personalizada
 	•	Consultoria arquitetônica
 
-Engenharia:
+# Engenharia:
 	•	Cálculos estruturais
 	•	Acompanhamento de obra
 	•	Soluções técnicas sustentáveis
 
-Extras (Diferenciais):
+# Extras (Diferenciais):
 	•	Integração total entre estética e estrutura
 	•	Uso de tecnologia e boas práticas ambientais
 
 ⸻
 
-4. Projetos / Portfólio
+# 4. Projetos / Portfólio
 	•	Galeria de imagens (mínimo 4 a 6 projetos ou mockups)
 	•	Nome do projeto + tipo (ex: Residência moderna, Escritório funcional)
 	•	Breve descrição:
