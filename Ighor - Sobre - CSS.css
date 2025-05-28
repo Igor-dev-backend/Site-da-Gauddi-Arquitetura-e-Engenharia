@@ -363,8 +363,21 @@ header h2 {
 
 
 /* Bloco - Equipe */
+/* Garantir que tudo respeite o tamanho do box */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Seção da equipe */
 .fundadores-equipe {
-  padding: 4rem 2rem;
+  padding: 4rem 1rem;
   background-color: #f9f9f9;
   text-align: center;
   font-family: 'Apparat', sans-serif;
@@ -377,33 +390,31 @@ header h2 {
   letter-spacing: 0.05em;
 }
 
-
 .duplas-fundadores {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
   align-items: center;
+  width: 100%;
 }
-
 
 .imagem-dupla {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
   max-width: 800px;
+  flex-wrap: nowrap;
   overflow: hidden;
   border-radius: 1rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 .imagem-dupla img {
   width: 50%;
   height: auto;
-  display: block;
   object-fit: cover;
+  display: block;
 }
-
 
 @media (max-width: 768px) {
   .imagem-dupla {
@@ -414,6 +425,7 @@ header h2 {
     width: 100%;
   }
 }
+
 
 
 /* Bloco - Pilares */
