@@ -1,3 +1,7 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 .navbar {
   background-color: #000;
   position: sticky;
@@ -33,7 +37,6 @@
 }
 .nav-links a::after {
   content: '';
-  position: absolute;
   bottom: -4px;
   left: 0;
   width: 0;
@@ -51,7 +54,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Apparat', sans-serif;
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
