@@ -388,6 +388,7 @@ header h2 {
 .imagem-dupla {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 0;
   width: 100%;
   max-width: 800px;
@@ -398,9 +399,11 @@ header h2 {
 
 .imagem-dupla img {
   width: 50%;
+  min-width: 250px; 
   height: auto;
   object-fit: cover;
 }
+
 
 @media (max-width: 768px) {
   .imagem-dupla {
