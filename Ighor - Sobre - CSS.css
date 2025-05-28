@@ -95,7 +95,7 @@ header {
 }
 header h1 {
   position: relative;
-  font-size: 10rem;
+  font-size: 8rem;
   font-weight: 400;
   margin: 0 0 20px 0;
   line-height: 1.2;
@@ -387,31 +387,33 @@ header h2 {
 
 .imagem-dupla {
   display: flex;
+  flex-wrap: wrap;               
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: stretch;
   gap: 0;
   width: 100%;
   max-width: 800px;
-  overflow: hidden;
   border-radius: 1rem;
+  overflow: hidden;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 .imagem-dupla img {
-  width: 50%;
-  min-width: 250px; 
+  flex: 1 1 300px;               
+  min-width: 300px;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
+  display: block;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .imagem-dupla {
     flex-direction: column;
-    max-width: 90%;
   }
 
   .imagem-dupla img {
+    min-width: 100%;
     width: 100%;
   }
 }
