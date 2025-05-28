@@ -11,8 +11,15 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 40px;
+    padding: 0px;
     color: #323232;
+}
+
+.body-pad {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
 }
 
 .container {
@@ -55,8 +62,12 @@ form {
 
 header h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
     font-size: 2em;
+}
+
+h1 {
+  padding-top: 20px;
 }
 
 .form-grid {
