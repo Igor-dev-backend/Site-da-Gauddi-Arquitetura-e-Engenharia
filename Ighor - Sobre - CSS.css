@@ -9,6 +9,7 @@ body, html {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  width: 100%;
 }
 
 /* Bloco Navegação */
@@ -363,19 +364,10 @@ header h2 {
 
 
 /* Bloco - Equipe */
-/* Garantir que tudo respeite o tamanho do box */
 * {
   box-sizing: border-box;
 }
 
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-/* Seção da equipe */
 .fundadores-equipe {
   padding: 4rem 1rem;
   background-color: #f9f9f9;
