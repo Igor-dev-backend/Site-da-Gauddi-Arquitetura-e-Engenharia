@@ -121,7 +121,7 @@ input[type="checkbox"] {
   cursor: pointer;
   vertical-align: middle;
   position: relative;
-  top: -2px;
+  top: -4px;
 }
 
 input[type="submit"] {
